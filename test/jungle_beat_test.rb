@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/jungle_beat'
+require './lib/linked_list'
 
 class JungleBeatTest < Minitest::Test
   def test_it_exists
