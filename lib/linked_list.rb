@@ -96,6 +96,7 @@ class LinkedList
     until list.next_node.next_node == nil
       list = list.next_node
     end
+    
     list.next_node = nil
   end
 end
