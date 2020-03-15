@@ -17,4 +17,9 @@ class JungleBeat
   def count
     @list.count
   end
+
+  def play
+    beats = @list.to_string
+    `say -r 200 #{beats}`
+  end
 end
